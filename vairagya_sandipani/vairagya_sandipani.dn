@@ -1,12 +1,11 @@
 \documentclass{book}
 \usepackage[a5paper]{geometry}
+\usepackage{hyperref}
 \newcommand{\flush}{\hspace*{\fill}}
 \newcommand{\pa}{\hspace*{.9cm}\\*[.1cm]}
 \usepackage{type1cm}
 \newcommand{\trans}{\parindent=0pt\let\thefootnote\relax\footnotetext}
 \newcommand{\tmark}{\let\thefootnote\relax\footnotemark}
-\usepackage[tableofcontents=all]{hyperref}
-
 
 
 \usepackage{afterpage}
@@ -122,7 +121,7 @@ ya & ra & la & va & \'sa \\*[0.25cm]
 \clearpage\pagestyle{plain}
 \begin{center}
 {\dn "sriimadgosvaamitulasiidaasajii viracita\\[0.1cm]
-{\huge || vairaagyasandiipani||}
+{\huge || vairaagyasandiipanii||}
 }
 \end{center}
 
