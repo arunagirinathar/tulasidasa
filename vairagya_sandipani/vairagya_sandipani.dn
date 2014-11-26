@@ -1,8 +1,12 @@
 \documentclass{book}
 \usepackage[a5paper]{geometry}
 \usepackage{hyperref}
+\usepackage[all]{nowidow}
+\setnowidow
+\setnoclub
+
 \newcommand{\flush}{\hspace*{\fill}}
-\newcommand{\pa}{\hspace*{.9cm}\\*[.1cm]}
+\newcommand{\pa}{\hspace*{.9cm}\\*}
 \usepackage{type1cm}
 \newcommand{\trans}{\parindent=0pt\let\thefootnote\relax\footnotetext}
 \newcommand{\tmark}{\let\thefootnote\relax\footnotemark}
@@ -34,11 +38,12 @@
 \thispagestyle{empty}
 \begin{center}
 {\dn\dnpen || "sriiga.ne"sa"saaradaagurubhyo nama.h ||}\\[.5cm]
-\hline\hline\\*[2cm]
-
+\end{center}
+\hline\hline\vspace*{2cm}
+\begin{center}
 {\dn\Huge\Huge vairaagyasandiipanii}\\[0.5cm]{\Huge\scshape Vair\=agyasand\={\i}pan\={\i}}\\[.5cm]{\Large\itshape A Renunciation Kindler}\\[2cm]
 
-{\itshape\Large Composed by\\ {\bfseries\'Sr\={\i}mad-Gosv\=am\={\i} Tulas\={\i}d\=asa-ji}\\[0.3cm]{\huge \&}\\translated into English by\\[0.3cm] \emph{Ajai Kumar Chhawchharia}}\\[3cm]
+{\itshape\Large Composed by\\ {\bfseries\'Sr\={\i}mad-Gosv\=am\={\i} Tulas\={\i}d\=asa-ji}\\[0.3cm]{\huge \&}\\translated into English by\\[0.3cm] \emph{Ajai Kumar Chhawchharia}}\\[2cm]
 
 %{\itshape\large Revised and Edited by\\[0.1cm]}
 %{\scshape\large ``\'Sivap\=adah\d{r}daya\.m''}\\[1cm]
@@ -225,9 +230,9 @@ tulasii yaha mata sa.mta ko bolai samataa maahi\tmark \flush || 13||}
 }
 
 {\dn\dnnum\large
-\textbf{caupaa{}ii}--\hspace*{0.2cm}ati ananyagati i.mdrii jiitaa \\[0.1cm]
+\textbf{caupaa{}ii}--\hspace*{0.2cm}ati ananyagati i.mdrii jiitaa\\
 \hspace*{2.5cm}jaako hari binu katahu/ na ciitaa  \flush |\pa
-\hspace*{1.5cm}m.rga t.r.s.naa sama jaga jiya jaanii \\[0.1cm]
+\hspace*{1.5cm}m.rga t.r.s.naa sama jaga jiya jaanii \\
 \hspace*{2.5cm}tulasii taahi sa.mta pahicaanii\tmark \flush || 14||
 }
 
@@ -588,9 +593,9 @@ tulasii jaake cita bha{}ii raaga dve.sa kii haani \flush || 59||}
 
 
 {\dn\dnnum\large 
-\textbf{caupaa{}ii}--\hspace*{0.2cm}raaga dve.sa kii agini bujhaanii  \\[0.1cm]
+\textbf{caupaa{}ii}--\hspace*{0.2cm}raaga dve.sa kii agini bujhaanii  \\
 \hspace*{2.5cm}kaama krodha baasanaa nasaanii \flush |\pa
-\hspace*{1.8cm}tulasii jabahi saa.mti g.rha aa{}ii\\[0.1cm]
+\hspace*{1.8cm}tulasii jabahi saa.mti g.rha aa{}ii\\
 \hspace*{2.5cm}taba urahii.m ura phirii dohaa{}ii\tmark \flush || 60||}
 
 \trans{\\*[0.1cm]
@@ -609,19 +614,14 @@ anucita bacana bicaari ke jasa sudhaari tasa dehu\tmark \flush || 62||}
 
 \trans{\\*[0.1cm]
 \large 62. Gentlemen! (Earnest devotees!) Please listen and pay attention to this \emph{Vair\=agya Sand\={\i}pan\={\i}} carefully and with full concentration; if any wrong (or incorrect) word / phrase (idea / thought) is found anywherem then please check / correct it after giving due (wise) thought.
-
-\begin{center}
-{\itshape Thus ends the \emph{Vair\=agya Sand\={\i}pan\={\i}} composed by\\
-\'Sr\={\i} Gosv\=am\={\i} Tulas\={\i}d\=asa.}
-\end{center}
 }
-
-
-
+\newpage
+\vspace*{\fill}
 \begin{center}
 {\dn\Large samapta"scaaya.m grantha.h}\\
 {\dn\dnpen || "sriisiitaaraamacandraarpa.namastu ||}
 \end{center}
+\vspace*{\fill}
 \newpage
 \thispagestyle{empty}
 \section*{Colophon}
